@@ -15,5 +15,30 @@
                 "texto": "Change or cancel your plan anytime."
             }
         ]
+    },
+
+    "section2":{
+        "planes":[
+            {
+                "titulo": "Basic",
+                "precio":"COP $16,900/mo",
+                "descripcion":["Video quality: Good", "Resolution: 720p"],
+                "boton": "next"
+            },
+            {
+                "titulo": "Standard",
+                "precio":"COP $26,900/mo",
+                "descripcion":["Video quality: Better", "Resolution: 1080p"],
+                "boton": "next"
+            },
+            {
+                "titulo": "Premium",
+                "precio":"COP $38,900/mo",
+                "descripcion":["Video quality: Best", "Resolution: 4K+HDR"],
+                "boton": "next"
+            }
+
+        ]
     }
+
 }
