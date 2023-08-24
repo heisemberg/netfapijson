@@ -10,8 +10,8 @@ body {
   max-width: 700px;
 }
 
-svg{
-  fill: #E50914;
+li{
+  list-style-type: none;
 }
 
 .bd-placeholder-img {
