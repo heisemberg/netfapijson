@@ -57,7 +57,30 @@
             }
         ],
         "descripcion": "HD (720p), Full HD (1080p), Ultra HD (4K) and HDR availability subject to your internet service and device capabilities. Not all content is available in all resolutions. See our Terms of Use for more details.<br>Only people who live with you may use your account. Watch on 4 different devices at the same time with Premium, 2 with Standard and 1 with Basic."
+    },
+
+    "footer":{
+        "footerdata":[
+            {
+                "elemento1": "<img class='mb-2' src='../assets/brand/netflix.png' alt='' width='24' height='19'>",
+                "elemento2":"<small class='d-block mb-3 text-body-secondary'>&copy; Campuslands 2023 Bucaramanga</small>"   
+            },
+            {
+                "elemento1": "<li class='mb-1'><a class='link-secondary text-decoration-none' href='https://help.netflix.com/support/412'>FAQ</a></li>",
+                "elemento2":"<li class='mb-1'><a class='link-secondary text-decoration-none' href='https://help.netflix.com/legal/privacy'>Privacy</a></li>"
+            },
+            {
+                "elemento1": "<li class='mb-1'><a class='link-secondary text-decoration-none' href='https://help.netflix.com/'>Help Center</a></li>",
+                "elemento2":"<li class='mb-1'><a class='link-secondary text-decoration-none' href='https://www.netflix.com/signup/planform?locale=en-CO#'>Cookie Preferences</a></li>"
+            },
+            {
+                "elemento1": "<li class='mb-1'><a class='link-secondary text-decoration-none' href='https://netflix.shop/'>Netflix Shop</a></li>",
+                "elemento2":"<li class='mb-1'><a class='link-secondary text-decoration-none' href='https://help.netflix.com/legal/corpinfo'>Corporate Information</a></li>"
+            },
+            {
+                "elemento1": "<li class='mb-1'><a class='link-secondary text-decoration-none' href='https://help.netflix.com/legal/termsofuse'>Terms of Use</a></li>",
+                "elemento2": ""
+            }
+        ]
     }
-
-
 }

@@ -72,6 +72,19 @@ let construirElEncabezado = async()=>{
         </table>
         <p class="text-body-secondary">${res.section3.descripcion}</p>
     `);
+
+    let selecion4 = document.querySelector("#myJsonFooter");
+    selecion4.insertAdjacentHTML("beforeend", /*html*/`
+    ${res.footer.footerdata.map((value4)=> /*html*/ `
+    <div class="col-6 col-md">
+      <ul class="list-unstyled text-small">
+        ${value4.elemento1}
+        ${value4.elemento2}
+      </ul>
+    </div>
+        `
+        ).join("")}
+    `);
 }
 
 construirElEncabezado();
