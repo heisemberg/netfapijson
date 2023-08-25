@@ -45,11 +45,33 @@ let construirElEncabezado = async()=>{
             </div>
         </div>
     </div>
-
         `
         ).join("")}
     `);
     
+    let selecion3 = document.querySelector("#myJsonSection3");
+    selecion3.insertAdjacentHTML("beforeend", /*html*/`
+    <h2 class="display-6 text-center mb-4">${res.section3.titulo}</h2>
+        <table class="table text-center">
+          <thead>
+            <tr>
+              <th style="width: 34%;">${res.section3.tabla[0].titulo}</th>
+              <th style="width: 22%;">${res.section3.tabla[0].basico}</th>
+              <th style="width: 22%;">${res.section3.tabla[0].estandar}</th>
+              <th style="width: 22%;">${res.section3.tabla[0].premium}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">${res.section3.tabla[1].titulo}</th>
+              <td>${res.section3.tabla[1].basico}</td>
+              <td>${res.section3.tabla[1].estandar}</td>
+              <td>${res.section3.tabla[1].premium}</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="text-body-secondary">${res.section3.descripcion}</p>
+    `);
 }
 
 construirElEncabezado();
