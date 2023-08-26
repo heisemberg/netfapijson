@@ -62,7 +62,7 @@
     "footer":{
         "footerdata":[
             {
-                "elemento1": "<img class='mb-2' src='../assets/brand/netflix.png' alt='' width='24' height='19'>",
+                "elemento1": "<img class='mb-2' src='./assets/brand/netflix.png' alt='' width='24' height='19'>",
                 "elemento2":"<small class='d-block mb-3 text-body-secondary'>&copy; Campuslands 2023 Bucaramanga</small>"   
             },
             {
